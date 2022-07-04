@@ -11,10 +11,10 @@ class JConfig {
 	public $access = 1;
 	public $frontediting = 1;
 	public $dbtype = 'mysqli';
-	public $host = 'mariadb:3306';
-	public $user = 'bn_joomla';
-	public $password = '';
-	public $db = 'seven-contabilidade';
+	public $host = '45.34.12.245:3306';
+	public $user = 'sevennegocios';
+	public $password = '$=AkS_3caSFQ&MrS';
+	public $db = 'sevenlocal';
 	public $dbprefix = 'jos_';
 	public $dbencryption = 0;
 	public $dbsslverifyservercert = false;
