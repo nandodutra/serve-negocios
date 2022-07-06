@@ -75,6 +75,10 @@ body {
   height: 200px !important;
 }
 
+.cover-image.inside-contato {
+  height: 450px !important;
+}
+
 .cover-image > .container {
   height: 100%;
 }
