@@ -131,6 +131,7 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
 	<jdoc:include type="metas" />
 	<jdoc:include type="styles" />
 	<jdoc:include type="scripts" />
+	<script src="/media/templates/site/cassiopeia/js/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body class="site <?php echo $option
