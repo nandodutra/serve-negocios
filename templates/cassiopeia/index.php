@@ -320,5 +320,11 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
 	<?php endif; ?>
 
 	<jdoc:include type="modules" name="debug" style="none" />
+
+	<script>
+		$(document).ready(function() {
+			$('.ba-form-footer').find('p').remove()
+		});
+	</script>
 </body>
 </html>
