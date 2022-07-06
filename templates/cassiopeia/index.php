@@ -213,7 +213,7 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
 	<?php if ($menu->route === 'home'): ?>
 		<div class="cover-image home container-fluid">
 	<?php elseif ($menu->route === 'contato'): ?>
-		<div class="cover-image inside-contato container-fluid">
+		<div class="cover-image inside-contato container-fluid p-0">
 	<?php else: ?>
 		<div class="cover-image inside container-fluid">
 	<?php endif; ?>
