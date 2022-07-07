@@ -220,9 +220,11 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
 	<?php endif; ?>
 
 		<?php if ($menu->route === 'contato'): ?>
+			<div class="top-overlay-map"></div>
 			<div class="container-fluid p-0 d-flex align-items-center">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.3707814851005!2d-39.743031184619234!3d-17.537524972905167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x73545890802fd41%3A0x505b7fd8edbd0d9f!2zRWRpZsOtY2lvIEF0bMOibnRpY28!5e0!3m2!1spt-BR!2sbr!4v1657138291356!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
+			<div class="bottom-overlay-map"></div>
 		<?php else: ?>
 			<div class="container d-flex align-items-center"></div>
 		<?php endif; ?>

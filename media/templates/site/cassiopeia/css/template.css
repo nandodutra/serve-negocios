@@ -229,8 +229,23 @@ footer .container > .copy-right p {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.top-overlay-map {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  box-shadow: inset 0px 2px 4px rgb(0 0 0 / 25%);
+}
+
+.bottom-overlay-map {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  margin-top: -10px;
+  box-shadow: inset 0px -12px 11px -14px rgba(0,0,0,0.75);
+}
+
 @media (max-width: 990px) {
-  .navbar > .navbar-collapse.collapse.show {
+  .navbar .navbar-collapse.collapse.show {
     padding: 10px;
     background-color: #fff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
