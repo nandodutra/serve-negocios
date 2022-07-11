@@ -262,4 +262,8 @@ footer .container > .copy-right p {
     font-size: 1.2rem;
     height: 100%;
   }
+
+  footer .container {
+    height: 100% !important;
+  }
 }
