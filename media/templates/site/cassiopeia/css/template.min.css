@@ -63,7 +63,7 @@ body {
 }
 
 .cover-image {
-  background-image: url(../images/overlay.png);
+  background-image: url(../images/overlay.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
