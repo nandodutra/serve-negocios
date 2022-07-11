@@ -255,4 +255,10 @@ footer .container > .copy-right p {
   .content-box .card .card-body {
     width: 100%;
   }
+
+  footer > div {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+  }
 }
