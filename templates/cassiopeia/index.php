@@ -149,7 +149,7 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
 			<div class="container d-flex justify-content-between align-items-center">
 				<div class="social">
 					<a href="https://www.instagram.com/sevencont.tx/" target="_blank"><span class="fa-brands fa-instagram"></span></a>&nbsp;&nbsp;
-					<span class="fa-brands fa-whatsapp"></span>&nbsp;&nbsp;
+					<a href="https://api.whatsapp.com/send?phone=557332633005" target="_blank"><span class="fa-brands fa-whatsapp"></span></a>&nbsp;&nbsp;
 					<!-- <span class="fa-brands fa-instagram"></span> -->
 				</div>
 				<div class="d-flex">
